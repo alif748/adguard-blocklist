@@ -4,14 +4,26 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
+		// "dev": "vite dev",
+		// "build": "vite build",
+		// "preview": "vite preview",
+		// "prepare": "svelte-kit sync || echo ''",
+		// "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		// "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		// "lint": "prettier --check . && eslint .",
+		// "format": "prettier --write ."
+		"prepare": "svelte-kit sync || echo ''",
+		"dev": "svelte-kit sync && vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"bb": "yarn build && yarn preview",
+		"cf:build": "vite build",
+		"cf:dev": "wrangler dev .svelte-kit/cloudflare/_worker.js",
+		"cf:deploy:worker": "wrangler deploy .svelte-kit/cloudflare/_worker.js",
+		"cf:pages:dev": "wrangler pages dev .svelte-kit/cloudflare",
+		"cf:pages:deploy": "wrangler pages deploy .svelte-kit/cloudflare"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.4",
