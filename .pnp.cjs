@@ -29,6 +29,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/compat", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.0.5"],\
           ["@eslint/js", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:10.0.1"],\
+          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:6.1.1"],\
+          ["@sveltejs/adapter-cloudflare", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.2.8"],\
           ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
           ["@sveltejs/vite-plugin-svelte", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.0"],\
           ["@tailwindcss/typography", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:0.5.19"],\
@@ -50,6 +52,15 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:8.0.10"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@cloudflare/workers-types", [\
+      ["npm:4.20260424.1", {\
+        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/@cloudflare-workers-types-npm-4.20260424.1-36e8a5023c-10c0.zip/node_modules/@cloudflare/workers-types/",\
+        "packageDependencies": [\
+          ["@cloudflare/workers-types", "npm:4.20260424.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@emnapi/core", [\
@@ -541,6 +552,56 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/acorn",\
           "acorn"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@sveltejs/adapter-auto", [\
+      ["npm:6.1.1", {\
+        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-auto-npm-6.1.1-13bd0d1159-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
+        "packageDependencies": [\
+          ["@sveltejs/adapter-auto", "npm:6.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:6.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/@sveltejs-adapter-auto-virtual-f5c24d674c/4/C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-auto-npm-6.1.1-13bd0d1159-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
+        "packageDependencies": [\
+          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:6.1.1"],\
+          ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
+          ["@types/sveltejs__kit", null]\
+        ],\
+        "packagePeers": [\
+          "@sveltejs/kit",\
+          "@types/sveltejs__kit"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@sveltejs/adapter-cloudflare", [\
+      ["npm:7.2.8", {\
+        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-cloudflare-npm-7.2.8-60aae87079-10c0.zip/node_modules/@sveltejs/adapter-cloudflare/",\
+        "packageDependencies": [\
+          ["@sveltejs/adapter-cloudflare", "npm:7.2.8"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.2.8", {\
+        "packageLocation": "./.yarn/__virtual__/@sveltejs-adapter-cloudflare-virtual-4459ace699/4/C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-cloudflare-npm-7.2.8-60aae87079-10c0.zip/node_modules/@sveltejs/adapter-cloudflare/",\
+        "packageDependencies": [\
+          ["@sveltejs/adapter-cloudflare", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.2.8"],\
+          ["@cloudflare/workers-types", "npm:4.20260424.1"],\
+          ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
+          ["@types/sveltejs__kit", null],\
+          ["@types/wrangler", null],\
+          ["worktop", "npm:0.8.0-next.18"],\
+          ["wrangler", null]\
+        ],\
+        "packagePeers": [\
+          "@sveltejs/kit",\
+          "@types/sveltejs__kit",\
+          "@types/wrangler",\
+          "wrangler"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1184,6 +1245,8 @@ const RAW_RUNTIME_STATE =
           ["adguard-blocklist", "workspace:."],\
           ["@eslint/compat", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.0.5"],\
           ["@eslint/js", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:10.0.1"],\
+          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:6.1.1"],\
+          ["@sveltejs/adapter-cloudflare", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.2.8"],\
           ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
           ["@sveltejs/vite-plugin-svelte", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.0"],\
           ["@tailwindcss/typography", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:0.5.19"],\
@@ -2532,6 +2595,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["regexparam", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/regexparam-npm-3.0.0-a249836acd-10c0.zip/node_modules/regexparam/",\
+        "packageDependencies": [\
+          ["regexparam", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["rolldown", [\
       ["npm:1.0.0-rc.17", {\
         "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/rolldown-npm-1.0.0-rc.17-2b04ad53ae-10c0.zip/node_modules/rolldown/",\
@@ -3004,6 +3076,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/word-wrap-npm-1.2.5-42d00c4b09-10c0.zip/node_modules/word-wrap/",\
         "packageDependencies": [\
           ["word-wrap", "npm:1.2.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["worktop", [\
+      ["npm:0.8.0-next.18", {\
+        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/worktop-npm-0.8.0-next.18-4a02d2aa28-10c0.zip/node_modules/worktop/",\
+        "packageDependencies": [\
+          ["worktop", "npm:0.8.0-next.18"],\
+          ["mrmime", "npm:2.0.1"],\
+          ["regexparam", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
