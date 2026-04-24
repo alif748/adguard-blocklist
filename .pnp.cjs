@@ -29,7 +29,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/compat", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.0.5"],\
           ["@eslint/js", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:10.0.1"],\
-          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.1"],\
           ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
           ["@sveltejs/vite-plugin-svelte", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.0"],\
           ["@tailwindcss/typography", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:0.5.19"],\
@@ -542,28 +541,6 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/acorn",\
           "acorn"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@sveltejs/adapter-auto", [\
-      ["npm:7.0.1", {\
-        "packageLocation": "../../../C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-auto-npm-7.0.1-bb915941fc-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
-        "packageDependencies": [\
-          ["@sveltejs/adapter-auto", "npm:7.0.1"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/@sveltejs-adapter-auto-virtual-b680999cd2/4/C:/Users/alif/AppData/Local/Yarn/Berry/cache/@sveltejs-adapter-auto-npm-7.0.1-bb915941fc-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
-        "packageDependencies": [\
-          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.1"],\
-          ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
-          ["@types/sveltejs__kit", null]\
-        ],\
-        "packagePeers": [\
-          "@sveltejs/kit",\
-          "@types/sveltejs__kit"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1207,7 +1184,6 @@ const RAW_RUNTIME_STATE =
           ["adguard-blocklist", "workspace:."],\
           ["@eslint/compat", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.0.5"],\
           ["@eslint/js", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:10.0.1"],\
-          ["@sveltejs/adapter-auto", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.1"],\
           ["@sveltejs/kit", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:2.58.0"],\
           ["@sveltejs/vite-plugin-svelte", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:7.0.0"],\
           ["@tailwindcss/typography", "virtual:ee9f1e0f03f89f6e613653506fbdd8f8e3ccd8886d0fa26101ebce684b0ea155be0cddf3e9e5ed8f71642561476c8c92689032373d9fddc5ace9b5c008730cb7#npm:0.5.19"],\
